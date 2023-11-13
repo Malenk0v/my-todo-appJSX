@@ -1,3 +1,25 @@
+# Todo List Application
+
+This project is a simple React application that allows users to manage their daily tasks efficiently. Users can add new tasks, mark tasks as completed, and delete tasks from the list.
+
+## Features
+
+- Add new tasks to the list
+- Mark tasks as completed
+- Delete tasks from the list
+- Responsive layout for different screen sizes
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+You will need the following tools installed on your system.
+
+- Node.js (10+)
+- npm (6+)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,30 @@
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #000;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-left: 5px solid var(--neon-pink);
+    color: var(--neon-text);
+    position: relative; /* Для позиционирования кнопки удаления */
+  }
+  
+  .taskItemCompleted {
+    text-decoration: line-through;
+    border-left-color: var(--neon-green);
+  }
+  
+  .deleteButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    color: var(--neon-pink);
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    color: var(--neon-green);
+  }
